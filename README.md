@@ -1,87 +1,26 @@
-## ⚠️ Notice: Final Major Version v2.x.x
+# Customized Bibata
 
-I've launched the successor to this project at https://www.github.com/ful1e5/bibata for **downloading and personalizing Bibata**, now the main source for new features. I recommend downloading from there. This repository is still maintained for [Linux packages](#packages).
+> [!NOTE]
+> **This is a very trimmed down fork of [Bibata_Cursor](https://github.com/ful1e5/Bibata_Cursor)**
 
--   Available at: https://www.bibata.live
--   Development Preview: https://dev.bibata.live
-
-## 💖 Support Bibata's Future
-
-Your sponsorship is crucial for Bibata's ongoing success. A **$1** contribution helps maintain servers for **24/7 accessibility**. With your support, I can upgrade to high-performance AWS servers, improving user experience. Sponsors also enjoy exclusive premium features for a more rewarding engagement.
-
-# Bibata Cursor
-
-[![build](https://github.com/ful1e5/Bibata_Cursor/actions/workflows/build.yml/badge.svg)](https://github.com/ful1e5/Bibata_Cursor/actions/workflows/build.yml)
-
-TLDR; This cursor set is a masterpiece of cursors available on the internet,
+This cursor set is a masterpiece of cursors available on the internet,
 hand-designed by [Abdulkaiz Khatri](https://twitter.com/ful1e5).
 
-Bibata is an open source, compact, and material designed cursor set that aims
-to improve the cursor experience for users. It is one of the most popular cursor sets
-in the Linux community and is now available for free on Windows as well, with multiple color
-and size options. Its goal is to offer personalized cursors to users.
-
-#### What does "Bibata" mean?
-
-The sweetest word I ever spoke was "BI-Buh," which, coincidentally, is also the word for peanuts.
-To make it more pronounceable and not sound like a baby's words, I added the suffix "Ta."
-And with that, my journey in the world of open source began.
-
-## Notes
-
--   All cursor's SVG files are found in [svg](./svg) directory or you can also find them on
-    [Figma](https://www.figma.com/file/Y9RKZLXhSvaxpUzsKGJkp6/Bibata-Cursor?node-id=0%3A1).
-
--   This repository is now synchronized with the [bibata](https://www.bibata.live) project,
-    which has become the new mainstream for acquiring new features and updates.
-    I recommend downloading from there. However, this repository is still periodically maintained
-    to ensure its relevance and usability for [linux packages](#packages).
-
-<!-- If you're interested, you can learn more about "sponsor-spotlight" on
- https://dev.to/ful1e5/lets-give-recognition-to-those-supporting-our-work-on-github-sponsors-b00 -->
-
-![shoutout-sponsors](https://sponsor-spotlight.vercel.app/sponsor?login=ful1e5)
-
--   **2024-06-14**: [4460d91](https://github.com/ful1e5/Bibata_Cursor/commit/4460d9118dce220d606c38308b93181861b8a85a) Partitioned cursor build configuration into multiple files according to platform:
-    -   `build.toml`
-        -   `configs/normal/x.build.toml`
-        -   `configs/normal/win_xl.build.toml`
-        -   `configs/normal/win_rg.build.toml`
-        -   `configs/normal/win_lg.build.toml`
-    -   `build.right.toml`
-        -   `configs/right/x.build.toml`
-        -   `configs/right/win_xl.build.toml`
-        -   `configs/right/win_rg.build.toml`
-        -   `configs/right/win_lg.build.toml`
+All cursor's SVG files are found in [svg](./svg) directory or you can also find them on
+[Figma](https://www.figma.com/file/Y9RKZLXhSvaxpUzsKGJkp6/Bibata-Cursor?node-id=0%3A1).
 
 ---
 
-![Bibata Amber](https://github.com/ful1e5/Bibata_Cursor/assets/24286590/d64d75e5-3ac9-45f3-8afe-e92719fd48d1)
 ![Bibata Classic](https://github.com/ful1e5/Bibata_Cursor/assets/24286590/04df0fbe-36fc-47bd-ad0a-c70eaea871f3)
 ![Bibata Ice](https://github.com/ful1e5/Bibata_Cursor/assets/24286590/56e7e67a-cf77-407c-871c-f663a93508f7)
 
 ---
 
-![Bibata Amber Right](https://github.com/ful1e5/Bibata_Cursor/assets/24286590/204a036a-796d-4277-85d2-30b7fb2449f2)
-![Bibata Classic Right](https://github.com/ful1e5/Bibata_Cursor/assets/24286590/fb4cac21-e8a8-46e9-9ce2-688f35bbcbaa)
-![Bibata Ice Right](https://github.com/ful1e5/Bibata_Cursor/assets/24286590/c64f45d6-cd8d-46e6-8386-e2f3b7012db7)
-
 ## Variants:
 
 -   Normal
-    -   **Bibata Original Amber:** Yellowish and sharp edge bibata cursors.
-    -   **Bibata Modern Amber:** Yellowish and rounded edge bibata cursors.
-    -   **Bibata Original Classic:** Black and sharp edge bibata cursors.
     -   **Bibata Modern Classic:** Black and rounded edge bibata cursors.
-    -   **Bibata Original Ice:** White and sharp edge bibata cursors.
     -   **Bibata Modern Ice:** White and rounded edge bibata cursors.
--   Right Hand
-    -   **Bibata Original Amber Right:** Yellowish and sharp edge right-hand bibata cursors.
-    -   **Bibata Modern Amber Right:** Yellowish and rounded edge right-hand bibata cursors.
-    -   **Bibata Original Classic Right:** Black and sharp edge right-hand bibata cursors.
-    -   **Bibata Modern Classic Right:** Black and rounded edge right-hand bibata cursors.
-    -   **Bibata Original Ice Right:** White and sharp edge right-hand bibata cursors.
-    -   **Bibata Modern Ice Right:** White and rounded edge right-hand bibata cursors.
 
 ## Cursor Sizes
 
@@ -111,63 +50,17 @@ And with that, my journey in the world of open source began.
 
 ## Colors:
 
-### Bibata Amber
-
--   Base Color - `#FF8300` (Amber)
--   Outline Color - `#FFFFFF` (White)
--   Watch Background Color - `#001524` (Rich Black)
-
 ### Bibata Classic
 
--   Base Color - `#000000` (Black)
+-   Base Color - `#101821` (Black/Dark Blue)
 -   Outline Color - `#FFFFFF` (White)
--   Watch Background Color - `#000000` (Black)
+-   Watch Background Color - `#101821` (Black/Dark Blue)
 
 ### Bibata Ice
 
 -   Base Color - `#FFFFFF` (White)
--   Outline Color - `#000000` (Black)
+-   Outline Color - `#101821` (Black/Dark Blue)
 -   Watch Background Color - `#FFFFFF` (White)
-
-## How to get it
-
-### Easiest Way
-
-You can download latest `stable` & `development` releases from [bibata.live](https://bibata.live) or on
-[Release Page](https://github.com/ful1e5/Bibata_Cursor/releases).
-
-### Packages
-
-> **Note**
-> If you're having trouble with the packages please submit a request to the package maintainer
-> before creating an issue.
-
-#### Arch Linux/Manjaro
-
-##### AUR @yochananmarqos
-
-```bash
-paru -S bibata-cursor-theme-bin # (recommended)
-paru -S bibata-cursor-theme
-```
-
-Or [PKGBUILD](https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD?h=bibata-cursor-theme)
-
-#### Fedora
-
-##### copr-repo by @peterwu (recommended)
-
-```bash
-sudo dnf copr enable peterwu/rendezvous
-sudo dnf install bibata-cursor-themes
-```
-
-##### copr-repo by @muhalantabli
-
-```bash
-sudo dnf copr enable muhalantabli/copr-repo
-sudo dnf install bibata-cursor-theme
-```
 
 ## Installing Bibata Cursor
 
@@ -224,8 +117,8 @@ Run the `uninstall.bat` script packed with the `.zip` archive
 ### Quick start
 
 1. Install [build prerequisites](#prerequisites) on your system
-2. `git clone https://github.com/ful1e5/Bibata_Cursor`
-3. `cd Bibata_Cursor`
+2. `git clone https://github.com/KevinSilvester/bibata-cursor`
+3. `cd bibata-cursor`
 4. `yarn install`
 5. `yarn generate`
 6. See [Installing Bibata Cursor](#installing-bibata-cursor).
@@ -343,22 +236,6 @@ ctgen build.toml -d 'bitmaps/Bibata-Solarized-Light' -n 'Bibata-Solarized-Light'
 npx cbmp -d 'svg/original' -o 'bitmaas/Bibata-Dracula' -bc '#282a36' -oc '#f8f8f2'
 ctgen build.toml -d 'bitmaps/Bibata-Dracula' -n 'Bibata-Dracula' -c 'Dracula Bibata cursors.'
 ```
-
-## You may also like...
-
--   [**Bibata**](https://bibata.live) - The place where Bibata's cursor gets personalized.
--   [**Bibata Adapta**](https://gitlab.com/cscs/Bibata_AdaptaBreath_Cursors) - Bibata Based Cursor Made for AdaptaBreath and Manjaro.
--   [**Bibata Translucent**](https://github.com/Silicasandwhich/Bibata_Cursor_Translucent) - Bibata translucent is a translucent flavor of the Bibata.
-
-## Testing Cursor
-
-There are several websites that allow you to test your cursor states by hovering over buttons. This can be very useful when developing or verifying the behavior of a cursor. The following websites cover many of the most commonly used cursors, although they may not include all available options.
-
--   [Cursor-Test](https://vibhorjaiswal.github.io/Cursor-Test/)
--   [Mozilla CSS Cursor](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor)
-
-For a blueprint for creating XCursors, you may also want to refer to [Cursor-demo](https://wiki.tcl-lang.org/page/Cursor+demo).
-
 ## Credit
 
 [Wedge Loading Animation](https://loading.io/spinner/wedges/-pie-wedge-pizza-circle-round-rotate) ·
