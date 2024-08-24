@@ -11,8 +11,8 @@ All cursor's SVG files are found in [svg](./svg) directory or you can also find 
 
 ---
 
-![Bibata Classic](https://github.com/ful1e5/Bibata_Cursor/assets/24286590/04df0fbe-36fc-47bd-ad0a-c70eaea871f3)
-![Bibata Ice](https://github.com/ful1e5/Bibata_Cursor/assets/24286590/56e7e67a-cf77-407c-871c-f663a93508f7)
+![Bibata Classic](https://raw.githubusercontent.com/KevinSilvester/bibata-cursor/main/Bibata-Modern-Classic.png)
+![Bibata Ice](https://raw.githubusercontent.com/KevinSilvester/bibata-cursor/main/Bibata-Modern-Ice.png)
 
 ---
 
