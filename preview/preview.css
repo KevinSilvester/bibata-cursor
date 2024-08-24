@@ -4,10 +4,7 @@ body {
    font-weight: 600;
    font-style: normal;
    color: white;
-   background: rgba(var(--gradient-start));
-   background: linear-gradient(0deg,
-         rgba(var(--gradient-start)) 0%,
-         rgba(var(--gradient-end)) 100%);
+   background: white;
 }
 
 .title {
@@ -24,6 +21,11 @@ body {
 .container {
    padding: 50px;
    width: 1000px;
+   background: rgba(var(--gradient-start));
+   background: linear-gradient(0deg,
+         rgba(var(--gradient-start)) 0%,
+         rgba(var(--gradient-end)) 100%);
+   border-radius: 40px;
 }
 
 .collage {
@@ -33,8 +35,8 @@ body {
 
 .collage-normal {
    background: rgba(255, 255, 255, 0.4);
-   border-radius: 20px;
-   padding: 30px 25px;
+   border-radius: 35px;
+   padding: 35px 35px;
    display: grid;
    grid-template-columns: repeat(10, 1fr);
    gap: 40px;
@@ -42,7 +44,7 @@ body {
 
 .collage-wait {
    background: rgba(255, 255, 255, 0.4);
-   border-radius: 20px;
+   border-radius: 35px;
    padding: 30px 25px;
    display: flex;
    flex-direction: column;
